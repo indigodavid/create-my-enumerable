@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # lib/my_enumerable.rb
 
 # Module to process iterable functions for MyList class

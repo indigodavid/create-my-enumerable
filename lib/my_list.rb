@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # lib/my_list.rb
 
 require_relative 'MyEnumerable'
