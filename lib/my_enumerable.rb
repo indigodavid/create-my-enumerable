@@ -1,3 +1,8 @@
+# frozen_string_literal: true
+
+# lib/my_enumerable.rb
+
+# Module to process iterable functions for MyList class
 module MyEnumerable
   def all?
     # all method
@@ -17,7 +22,7 @@ module MyEnumerable
     while index < @list.length
       condition ||= yield @list[index]
       break if condition
-  
+
       index += 1
     end
     condition
