@@ -1,5 +1,4 @@
-require "./MyEnumerable"
-
+require_relative "MyEnumerable"
 class MyList
   include MyEnumerable
   @list = []
