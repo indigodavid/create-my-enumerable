@@ -7,4 +7,8 @@ class MyList
   def initialize(*elements)
     @list = elements
   end
+
+  def each
+    @list.each yield
+  end
 end
