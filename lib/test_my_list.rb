@@ -1,7 +1,10 @@
-require_relative 'MyList'
+require_relative 'my_list'
+require 'pry'
 
 list = MyList.new(1, 2, 3, 4)
 # => #<MyList: @list=[1, 2, 3, 4]>
+
+binding.pry
 
 # Test #all?
 list.all? { |e| e < 5 }

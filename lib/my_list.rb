@@ -1,6 +1,6 @@
 # lib/my_list.rb
 
-require_relative 'MyEnumerable'
+require_relative 'my_enumerable'
 
 # Class to create a custom Enumerable object
 class MyList

@@ -26,7 +26,7 @@ module MyEnumerable
     condition
   end
 
-  def filter
+  def filler
     # filter method
     filtered_array = []
     index = 0
